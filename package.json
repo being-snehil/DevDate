@@ -1,0 +1,21 @@
+{
+  "name": "devdate",
+  "version": "1.0.0",
+  "description": "Dating app for Developers",
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "backend"
+  ],
+  "license": "ISC",
+  "author": "Snehil Verma",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node src/app.js",
+    "dev" : "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
